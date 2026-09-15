@@ -1,0 +1,25 @@
+.image-cropper {
+    width: 20em;
+    height: 20em;
+    position: relative;
+    border: 2px solid white;
+    -webkit-border-radius: 10em;
+    -moz-border-radius: 10em;
+    border-radius: 10m;
+    overflow:hidden;
+}
+
+.my-picture {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+}
+
+.flex-container { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3em;
+}
